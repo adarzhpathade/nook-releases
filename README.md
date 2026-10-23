@@ -11,7 +11,7 @@
 
 **[Download Nook for Windows 11](https://nook-download.vercel.app)**
 
-v0.1.2 test build · free to evaluate · closed source
+v0.1.3 test build · free to evaluate · closed source
 
 <br /><br />
 
@@ -140,7 +140,7 @@ A desktop accessory must never compromise system performance or break your deskt
 
 1. Download the latest installer from the official download page:
    **[https://nook-download.vercel.app](https://nook-download.vercel.app)**
-2. Run `Nook_0.1.2_x64-setup.exe`. The installer sets up Nook in your user profile.
+2. Run `Nook_0.1.3_x64-setup.exe`. The installer sets up Nook in your user profile.
 3. **Windows SmartScreen note:** This evaluation test build is not yet signed with a commercial code-signing certificate. When Windows SmartScreen displays *"Windows protected your PC"*, click **More info**, then click **Run anyway**.
 4. **Windows Defender note:** Because this test build is new and unsigned, Defender can wrongly remove it. The installer therefore asks once, before installing, to allow the Nook folder through Defender. Windows shows its normal permission prompt. Choose **No** to cancel the installation. See [TESTING.md](TESTING.md) for how to restore Nook if Defender removes it anyway.
 5. Nook launches immediately and places the resting pill at the top centre of your screen. Access settings at any time by clicking the Nook icon in the Windows system tray (or right-click for the tray menu with Settings and Quit Nook).
@@ -158,7 +158,7 @@ If you encounter an issue or have feedback on the test build:
 
 ## Roadmap
 
-The following capabilities are planned for upcoming releases (not available in the current v0.1.2 test build):
+The following capabilities are planned for upcoming releases (not available in the current v0.1.3 test build):
 
 - [ ] Commercial code signing certificate (removes the SmartScreen prompt)
 - [ ] Automatic background updates

@@ -9,6 +9,7 @@ Thank you for testing Nook. This is an early, **unsigned** test build, so Window
 3. If Windows SmartScreen says "Windows protected your PC", choose **More info**, then **Run anyway**.
 4. Before copying any files, the installer asks whether to allow the Nook folder through Windows Defender:
    - **Yes**: Windows will ask for administrator permission (UAC) once. Approving it adds an exclusion for the Nook install folder only (`%LOCALAPPDATA%\Programs\Nook`) so Defender does not block it by mistake, then proceeds to install Nook. If permission was declined, you can choose to try again or cancel.
+   - Installing an update into the same folder does not ask again. If you install into a different folder, you are asked once more, and the old folder's exclusion is removed.
    - **No**: Cancels the installation immediately. No files are copied, no settings or registry values are written, and nothing is left behind on your PC.
 
 ## If Windows Defender removes Nook
