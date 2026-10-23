@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" width="100%" height="auto" role="img" aria-label="Two live activities at once with liquid bridge and side pill">
+  <title>Nook Side Pill and Liquid Bridge</title>
+  <defs>
+    <linearGradient id="sideCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141a18" />
+      <stop offset="100%" stop-color="#0a0f0d" />
+    </linearGradient>
+    <radialGradient id="callGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#30d158" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#30d158" stop-opacity="0" />
+    </radialGradient>
+    <filter id="sideDropShadow" x="-10%" y="-20%" width="120%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect width="720" height="220" rx="14" fill="url(#sideCardBg)" stroke="#1a2b22" stroke-width="1.5" />
+
+  <!-- Ambient Glow -->
+  <ellipse cx="320" cy="80" rx="180" ry="50" fill="url(#callGlow)" />
+
+  <!-- The Two Pills with Liquid Bridge -->
+  <g transform="translate(40, 48)">
+    <!-- Liquid Bridge Path joining Main Pill and Side Pill -->
+    <path d="M 366 22 C 372 25, 376 27, 384 27 L 384 41 C 376 41, 372 43, 366 46 Z" fill="#000000" />
+
+    <!-- Main Pill: Active Call (240 x 44, rx 22) -->
+    <rect x="130" y="12" width="240" height="44" rx="22" fill="#000000" stroke="rgba(255, 255, 255, 0.18)" stroke-width="1.2" filter="url(#sideDropShadow)" />
+    
+    <!-- Phone Icon (Green) -->
+    <g transform="translate(148, 26)">
+      <path d="M 3.5 1.5 C 2.5 1.5 1.5 2.5 1.5 3.5 C 1.5 9 6 13.5 11.5 13.5 C 12.5 13.5 13.5 12.5 13.5 11.5 L 11.5 8.5 L 9.5 9.5 C 8 8.5 6.5 7 5.5 5.5 L 6.5 3.5 Z" fill="#30d158" />
+    </g>
+
+    <!-- Elapsed Time in Green -->
+    <text x="174" y="39" fill="#30d158" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" letter-spacing="0.5">12:47</text>
+
+    <!-- Live Voice Wave Indicators -->
+    <g transform="translate(236, 26)">
+      <rect x="0" y="4" width="2" height="8" rx="1" fill="#30d158" />
+      <rect x="4" y="1" width="2" height="14" rx="1" fill="#30d158" />
+      <rect x="8" y="5" width="2" height="6" rx="1" fill="#30d158" />
+      <rect x="12" y="2" width="2" height="12" rx="1" fill="#30d158" />
+    </g>
+
+    <!-- Round Mute Button -->
+    <circle cx="338" cy="34" r="13" fill="rgba(255, 255, 255, 0.12)" />
+    <!-- Mic icon inside button -->
+    <path d="M 338 27 C 336.5 27 335.5 28 335.5 29.5 L 335.5 33.5 C 335.5 35 336.5 36 338 36 C 339.5 36 340.5 35 340.5 33.5 L 340.5 29.5 C 340.5 28 339.5 27 338 27 Z" fill="#ffffff" />
+    <path d="M 333.5 32.5 C 333.5 35 335.5 37.5 338 37.5 C 340.5 37.5 342.5 35 342.5 32.5" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="338" y1="37.5" x2="338" y2="40.5" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" />
+
+    <!-- Side Pill: Timer (92 x 34, rx 17) -->
+    <rect x="382" y="17" width="92" height="34" rx="17" fill="#000000" stroke="rgba(255, 255, 255, 0.18)" stroke-width="1.2" filter="url(#sideDropShadow)" />
+    
+    <!-- Timer Countdown digits in Orange -->
+    <circle cx="399" cy="34" r="5" fill="none" stroke="#ff9f0a" stroke-width="1.5" />
+    <text x="435" y="40" fill="#ff9f0a" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="0.5">04:52</text>
+  </g>
+
+  <!-- Explanatory Callouts -->
+  <g transform="translate(0, 130)">
+    <!-- Primary Label -->
+    <line x1="260" y1="0" x2="260" y2="18" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+    <text x="260" y="34" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+      Primary activity (Call)
+    </text>
+    <text x="260" y="48" fill="rgba(255, 255, 255, 0.55)" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" text-anchor="middle">
+      Live timer, voice wave, one-click mute
+    </text>
+
+    <!-- Liquid Bridge Label -->
+    <text x="440" y="-12" fill="#64d2ff" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle">
+      Liquid bridge
+    </text>
+
+    <!-- Secondary Label -->
+    <line x1="468" y1="0" x2="468" y2="18" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+    <text x="468" y="34" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle">
+      Secondary side pill (Timer)
+    </text>
+    <text x="468" y="48" fill="rgba(255, 255, 255, 0.55)" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" text-anchor="middle">
+      Detaches cleanly · Click to swap positions
+    </text>
+  </g>
+</svg>

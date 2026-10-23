@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" width="100%" height="auto" role="img" aria-label="Resting pill and hover glance view">
+  <title>Nook Resting Pill and Hover Glance</title>
+  <defs>
+    <linearGradient id="restCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141820" />
+      <stop offset="100%" stop-color="#0b0d12" />
+    </linearGradient>
+    <filter id="pillShadow" x="-10%" y="-20%" width="120%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect width="720" height="220" rx="14" fill="url(#restCardBg)" stroke="#1e2430" stroke-width="1.5" />
+
+  <!-- Bezel Bar (Top of Screen) -->
+  <line x1="40" y1="20" x2="680" y2="20" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" stroke-dasharray="4 4" />
+  <text x="50" y="16" fill="rgba(255, 255, 255, 0.4)" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">DISPLAY TOP EDGE</text>
+
+  <!-- Section 1: Resting Pill -->
+  <g transform="translate(0, 0)">
+    <!-- Pill -->
+    <rect x="300" y="32" width="120" height="32" rx="16" fill="#000000" stroke="rgba(255, 255, 255, 0.16)" stroke-width="1" filter="url(#pillShadow)" />
+    <!-- Clock digits in resting pill -->
+    <text x="360" y="53" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="0.5">09:41</text>
+    
+    <text x="360" y="82" fill="rgba(255, 255, 255, 0.65)" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" text-anchor="middle">
+      Resting pill — compact, sits quietly at screen centre
+    </text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="60" y1="102" x2="660" y2="102" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+
+  <!-- Section 2: Hover Glance -->
+  <g transform="translate(0, 110)">
+    <!-- Hover Pill -->
+    <rect x="220" y="12" width="280" height="42" rx="21" fill="#000000" stroke="rgba(255, 255, 255, 0.18)" stroke-width="1" filter="url(#pillShadow)" />
+    
+    <!-- Time Left -->
+    <text x="246" y="38" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" letter-spacing="0.5">09:41</text>
+    
+    <!-- Subtle separator dot -->
+    <circle cx="360" cy="33" r="2" fill="rgba(255, 255, 255, 0.25)" />
+
+    <!-- Day Right -->
+    <text x="474" y="38" fill="rgba(255, 255, 255, 0.6)" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" text-anchor="end">Thursday</text>
+
+    <text x="360" y="74" fill="rgba(255, 255, 255, 0.65)" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" text-anchor="middle">
+      Hover glance — expands gently on cursor hover to reveal time and day
+    </text>
+  </g>
+</svg>
