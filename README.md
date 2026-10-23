@@ -1,21 +1,17 @@
 <div align="center">
 
-<img src="assets/nook-icon.svg" width="96" height="96" alt="Nook icon" />
+<img src="assets/nook-icon.png" width="120" height="120" alt="Nook icon" />
 
 # Nook
 
 **An animated island at the top of your Windows 11 screen.**
 
-[![Platform: Windows 11](https://img.shields.io/badge/Platform-Windows%2011-0078D4?style=flat-square&logo=windows11&logoColor=white)](https://nook-download.vercel.app)
-[![Version: v0.1.1 test build](https://img.shields.io/badge/Version-v0.1.1--test%20build-0a84ff?style=flat-square)](https://github.com/adarzhpathade/nook-releases/releases/tag/v0.1.1)
-[![Source: Closed Source](https://img.shields.io/badge/Source-Closed%20Source-555555?style=flat-square)](LICENSE.txt)
-[![Status: Free Evaluation](https://img.shields.io/badge/Evaluation-Free%20Test%20Build-30d158?style=flat-square)](https://nook-download.vercel.app)
 
 <br />
 
-<a href="https://nook-download.vercel.app">
-  <img src="https://img.shields.io/badge/Download_Nook_v0.1.1_for_Windows_11-0a84ff?style=for-the-badge&logo=windows11&logoColor=white" alt="Download Nook for Windows 11" />
-</a>
+**[Download Nook for Windows 11](https://nook-download.vercel.app)**
+
+v0.1.1 test build · free to evaluate · closed source
 
 <br /><br />
 
@@ -47,8 +43,6 @@ Nook brings an animated, floating island to the top centre of Windows 11. It gat
 
 Live activities keep ongoing tasks visible without covering your work. When an activity starts, the island expands from its resting clock to show real-time progress.
 
-![Live music activity in Nook](assets/music-pill.svg)
-
 - **Music with album colours:** Shows the album artwork, track title, artist name, and live equaliser bars. The accent colour of the equaliser bars, seek bar, and subtle ambient glow adapts to match the album cover. Track changes peek open automatically. Hover reveals the track title, artist, and a play/pause button. Scrolling the mouse wheel over the music hover adjusts volume.
 - **Calls:** Shows a green telephone glyph, live call duration, and real-time audio wave activity. Hover expands the view to display the active calling application and an instant mute button. When muted, the button and time switch to red.
 - **Timer and stopwatch:** Independent live activities that can run simultaneously. The timer displays an orange countdown ring with the time remaining and pause/dismiss actions. The stopwatch tracks elapsed time in cyan with pause and reset controls.
@@ -60,8 +54,6 @@ Live activities keep ongoing tasks visible without covering your work. When an a
 ## Quick pop-ups
 
 Nook replaces Windows' native flyouts with compact, responsive pop-ups that appear briefly at the top of the display and dismiss automatically.
-
-![Quick pop-ups showcase](assets/quick-popups.svg)
 
 - **Volume and brightness:** Smooth sliders with elastic drag past the limits and exact numeric readouts. Scrolling the mouse wheel over the island also adjusts volume directly. Muting shows a mute icon and dimmed bar.
 - **Battery:** Shows current charge percentage, an animated sweep while charging, and a shake warning on low battery (20%) and critical battery (10%).
@@ -78,8 +70,6 @@ Nook replaces Windows' native flyouts with compact, responsive pop-ups that appe
 
 Clicking the island expands it into a deck of cards. Turn the mouse wheel over the open card to scroll smoothly between views.
 
-![Expandable cards deck](assets/cards-deck.svg)
-
 - **Today:** Displays the current day, date, large time, and local weather ("24° Sunny").
 - **Timer:** Provides a countdown dial, remaining time, preset duration targets, and pause/cancel buttons.
 - **Stopwatch:** High-precision lap and split counter in cyan with lap timing and reset controls.
@@ -92,8 +82,6 @@ Clicking the island expands it into a deck of cards. Turn the mouse wheel over t
 ## Several things at once: the side pill
 
 When two live activities run at the same time—such as an active call while a countdown timer is running—Nook does not compromise either activity.
-
-![Several things at once: the side pill](assets/side-pill.svg)
 
 The primary activity occupies the main island. The secondary activity detaches into a compact side pill to the right, connected at separation by an organic liquid bridge. The side pill displays live values (such as countdown digits or equaliser waves). Clicking either pill instantly swaps their positions.
 
@@ -116,8 +104,6 @@ In all modes, Nook automatically hides during fullscreen games, videos, and pres
 ## Make it yours
 
 Left-click the Nook icon in the Windows system tray to open Settings at any time (the tray menu also offers Settings and Quit Nook; there is no right-click on the island itself).
-
-![Nook resting pill and edge reveal](assets/resting-pill.svg)
 
 - **Defaults for new users:** Out of the box, Nook starts in Smart visibility mode, with a Tinted pill background, Translucent surface at 70% opacity, Bouncy motion feel, and all live activities enabled.
 - **Live wallpaper preview:** The settings window includes an interactive preview of the island rendered directly over your desktop wallpaper. Every toggle and slider updates the preview in real time.
